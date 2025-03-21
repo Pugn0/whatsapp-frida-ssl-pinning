@@ -41,7 +41,7 @@ pip install frida-tools
 
 1. Connect to Frida and start WhatsApp Business with the script:
    ```sh
-   frida -U -f com.whatsapp.w4b -l index.js --no-pause
+   frida -U -f com.whatsapp.w4b -l index.js
    ```
 
 2. The script will automatically disable SSL Pinning.
